@@ -1,0 +1,36 @@
+ll=ls -l
+ls 显示系统目录
+ls -a　显示隐藏目录
+ls -al 显示相信信息
+d 开头　表示一个目录
+c b ｂ块式文件　ｃ字符文件
+ｒ可读　ｗ可写　ｘ可执行
+二进制位里　r 4   w 2   x 1
+ｖ进入vim的可视化模式　gedit是比较低级的文本编辑器　相当于windows的记事本
+强行改变一个文件的类型　　chmod 777 则它变成可读可写可执行文件　按顺序来的
+-rw-rwxr-- 第一个三个表示超级用户　第二个表示用户组　第三个表示普通用户　每一个用户都属于一个用户组　只是可能现在来说用户组只有你一个人
+sudo su 直接进入超级用户模式　就不用每次都输入sudo
+makefile是一个文件　名字固定　系统编译寻找依赖关系的时候会直接从这个文件找
+makefile 一个最终目标文件　然后是依赖　最后是执行语句
+qt图形运行库 网易云音乐修复　apt-get install -f　网易云音乐基于qt编写
+pwd　打印当前目录　print work directory
+socket 进程通信　网络通信　　接受信息的几个步骤
+终端输入python 默认为输入系统版本　系统依赖python2.7　所以不会卸载　更新时候也不会覆盖　要调用你安装的python3　直接在终端输入python3就行
+python函数传入可变参数时　如传入*num len(num)　因为此时将之转换为一个tuple处理　所以 len(num)　　表示传入的可变参数个数
+python 10(任意数字，此处仅举例)的n次方　既可以写成math.pow(10,n)  也可以写成　10**n
+python split　函数可以切分字符串　对于这种高级语言　最好积极使用它灵活的类型转换以此调用不同的内置函数和库文件
+strip函数　用于删除　然后none对象要特殊注意　这个特殊对象处理时也有很多例外　容易造成错误　因为它不同于普通对象　　很多功能它都没有
+函数调用与函数不同　详情参考屏幕截图
+由树莓派拷下来的原文件进行软连接　ln -s libwiringPiDev.so/libwiringPi.so
+ls -la
+cd /dev  这个目录下有所有的硬件接口
+vim .bashrc 配置路径　wiringpi路径　java路径也可以　变为全局变量
+raspi readall
+nmap -sP 10.3.16.* 先通过ifconfig查出目前ip　这个命令可得当前网段下所有连接的pc
+sudo nmap -sS 127.0.0.1  应该是对本机操作
+nmap 要安装
+git push origin master
+树莓派有命令可查看所有GPIO引脚状态　
+输入输出状态决定电流
+minicom 一种用来连接树莓派电脑的工具？
+
