@@ -34,3 +34,7 @@ git push origin master
 输入输出状态决定电流
 minicom 一种用来连接树莓派电脑的工具？ 目测是用来串口通信的
 
+
+
+配置bashrc或者profile时候将bin加入path是为了在所有目录下都可以使用该软件
+而当我们使用archlinux和debian一族的时候是不用的 因为它已经自动配置了
