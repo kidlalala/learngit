@@ -20,5 +20,3 @@ l=threading.Thread(target=lis,args=(s,))
 se=threading.Thread(target=sendmes,args=(s,))
 l.start()
 se.start()
-
-
