@@ -32,5 +32,5 @@ nmap 要安装
 git push origin master
 树莓派有命令可查看所有GPIO引脚状态　
 输入输出状态决定电流
-minicom 一种用来连接树莓派电脑的工具？
+minicom 一种用来连接树莓派电脑的工具？ 目测是用来串口通信的
 
